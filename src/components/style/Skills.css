@@ -1,0 +1,43 @@
+#skills {
+    place-items: center;
+    font-size: medium;
+    background-color: honeydew;
+  
+   
+}
+#skills h1{
+    color: coral;
+}
+#skills h2{
+    color: rgb(180, 53, 6);
+}
+#skills h3{
+    color: chocolate;
+    background-color: cornflowerblue;
+    
+    
+}
+
+#skills li{
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.skills-main ol{
+    padding: 40px;
+    margin: 10px;
+
+}
+.prog{
+    padding: 50px;
+    margin: 20px;
+    background-color: mediumturquoise;
+    border: 3px solid cadetblue;
+    color:darkblue;
+    border-radius: 0%;
+}
+.prog:hover{
+    cursor: pointer;
+    transform: scale(110%);
+    background-color: cadetblue;
+    
+}

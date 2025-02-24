@@ -1,0 +1,18 @@
+.navbar{
+    background-color:cadetblue;
+    list-style-type:none;
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0px;
+    font-size: large;
+    font-family: fantasy;
+    /* color:cornflowerblue; */
+}
+.top{
+    color:rgb(244, 125, 20);
+    cursor: pointer;
+}
+.top:hover{
+    background-color: cornflowerblue;
+}

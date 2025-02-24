@@ -1,0 +1,19 @@
+#home{
+    place-items:center;
+    padding:50px;
+    margin:0px;
+    font-size: larger;
+    background-color:honeydew;
+    color:rgb(77, 151, 225);
+    
+}
+#home img{
+    max-width: 80%;
+    max-height: 80%;
+}
+span{
+    color: cadetblue;  
+}
+.navbar li:hover{
+    background-color: rgba(221, 191, 116, 0.487);
+}

@@ -1,0 +1,21 @@
+#about{
+    background-color:ivory;
+    padding: 50px;
+    place-items: center;
+}
+.aboutme{
+    background-color: cadetblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:navy;
+    font-size: medium;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.aboutme:hover{
+    background-color:ivory ;
+    border:3px solid cadetblue;
+}
+#about h1{
+    color:coral
+}

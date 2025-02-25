@@ -4,7 +4,7 @@ import {useTypewriter,Cursor} from 'react-simple-typewriter'
 import './style/Home.css'
 const Home = () => {
   const[text]=useTypewriter({
-    words:['I am ','Welcome to my portfolio'],
+    words:['I am Sowmya S','Welcome to my portfolio'],
     loop:true,
   });
   return (

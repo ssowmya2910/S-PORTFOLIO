@@ -1,0 +1,42 @@
+#projects {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: ivory;
+}
+
+.project {
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.project img {
+    width: 100px;
+    height: auto;
+}
+.pro{
+    display: flex;
+    
+    
+
+}
+.pro h1{
+    margin-bottom: 30px;
+    font-size: large;
+    color:coral
+}
+.project{
+    background-color: cadetblue;
+    margin:50px;
+}
+.project img{
+    height: 100px;
+    width:100px;
+}
+@media (max-width: 768px) {
+.project {
+    width: 90%;
+}
+}

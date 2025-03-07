@@ -1,21 +1,26 @@
-#about{
-    background-color:ivory;
-    padding: 50px;
-    place-items: center;
+#about {
+    background-color: ivory;
+    padding: 80px 20px;
+    text-align: center;
 }
-.aboutme{
-    background-color: cadetblue;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:navy;
-    font-size: medium;
-    border-radius: 15px;
-    cursor: pointer;
 
+.aboutme {
+    background-color: cadetblue;
+    color: navy;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    transition: 0.3s;
 }
-.aboutme:hover{
-    background-color:ivory ;
-    border:3px solid cadetblue;
+
+.aboutme:hover {
+    background-color: ivory;
+    border: 3px solid cadetblue;
 }
-#about h1{
-    color:coral
+
+@media (max-width: 768px) {
+    .aboutme{
+        width: 90%;
+    }
 }

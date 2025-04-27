@@ -1,26 +1,49 @@
 #about {
-    background-color: ivory;
-    padding: 80px 20px;
+    background: linear-gradient(135deg, #fff, #e0f7fa);
+    padding: 100px 20px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
-.aboutme {
-    background-color: cadetblue;
-    color: navy;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 800px;
+#about h1 {
+    font-size: 2.8rem;
+    color: #00796b;
+    margin-bottom: 40px;
+}
+
+.about-container {
+    background-color: #ffffff;
+    color: #37474f; /* Dark blue-grey */
+    padding: 30px 40px;
     margin: 0 auto;
-    transition: 0.3s;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 121, 107, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    line-height: 1.8;
 }
 
-.aboutme:hover {
-    background-color: ivory;
-    border: 3px solid cadetblue;
+.about-container:hover {
+    background-color: #e0f2f1;
+    transform: scale(1.02);
 }
 
+.about-container p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
-    .aboutme{
-        width: 90%;
+    #about h1 {
+        font-size: 2.2rem;
+    }
+
+    .about-container {
+        padding: 20px;
+    }
+
+    .about-container p {
+        font-size: 1rem;
     }
 }

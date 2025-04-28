@@ -27,14 +27,14 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="project-card">
+        {/* <div className="project-card">
           <img src={tictactoe} alt="Tic Tac Toe" />
           <h3>Tic Tac Toe</h3>
           <p>
             Developed a fully functional <strong>Tic Tac Toe</strong> game using <strong>Java</strong>.<br />
             Features include player turn tracking and win condition detection.
           </p>
-        </div>
+        </div> */}
 
       </div>
     </section>

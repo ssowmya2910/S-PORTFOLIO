@@ -40,8 +40,8 @@ const Skills = () => {
             <div className="tech">
               <h3>Tools</h3>
               <ul>
-              <li> <img src={git} alt='/'/> </li>
-              <li> <img src={github} alt='/'/> </li>
+              {/* <li> <img src={git} alt='/'/> </li>
+              <li> <img src={github} alt='/'/> </li> */}
               <li> <img src={vscode} alt='/'/> </li>
               <li> <img src={figma} alt='/'/> </li>
               </ul>

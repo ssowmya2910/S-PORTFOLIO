@@ -1,6 +1,8 @@
 import React from 'react';
 import './style/Projects.css';
-
+import musicapp from '../assets/isaiwreathe.png'
+import todo from '../assets/todo.png'
+import tictactoe from '../assets/tictactoe.png'
 const Projects = () => {
   return (
     <section id="projects">
@@ -8,15 +10,16 @@ const Projects = () => {
       <div className="projects-grid">
         
         <div className="project-card">
-          <img src="../todo.jpg" alt="To-Do List" />
+          <img src={todo} alt="To-Do List" />
           <h3>To-Do List</h3>
           <p>
             Implemented a To-Do List web application with full CRUD operations using <strong>React.js</strong>.  
           </p>
+         
         </div>
 
         <div className="project-card">
-          <img src="../todo.jpg" alt="Music Player" />
+          <img src={musicapp} alt="Music Player" />
           <h3>Music Player</h3>
           <p>
             Built a simple <strong>music player</strong> interface using React.js. <br />
@@ -25,7 +28,7 @@ const Projects = () => {
         </div>
 
         <div className="project-card">
-          <img src="../tictactoe.png" alt="Tic Tac Toe" />
+          <img src={tictactoe} alt="Tic Tac Toe" />
           <h3>Tic Tac Toe</h3>
           <p>
             Developed a fully functional <strong>Tic Tac Toe</strong> game using <strong>Java</strong>.<br />

@@ -1,6 +1,6 @@
 #home {
     background: linear-gradient(135deg, #e0f7fa, #fff);
-    color: #00796b; /* Dark Teal */
+    color: #00796b; 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@
 }
 
 .typed-text {
-    color: #ff6f61; /* Coral highlight */
+    color: #ff6f61; 
 }
 
 .home-img {
@@ -39,7 +39,7 @@
     }
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
     .home-content h1 {
         font-size: 2rem;

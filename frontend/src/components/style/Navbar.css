@@ -1,4 +1,3 @@
-/* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +5,8 @@
     
 }
 
-/* Navbar styling */
 .navbar {
-    background-color: #008080; /* Teal */
+    background-color: #008080; 
     list-style-type: none;
     display: flex;
     justify-content: center;

@@ -11,7 +11,7 @@ const About = () => {
           <br /><br />
           I have a keen interest in <strong>competitive programming</strong> and problem-solving, consistently practicing on platforms like <em>LeetCode</em> and <em>GeeksforGeeks</em> to refine my coding skills.
           <br /><br />
-          Beyond academics, I actively engage in <strong>projects</strong> and <strong>internships</strong> to gain practical experience. I explore various <strong>programming languages</strong>, <strong>frameworks</strong>, and <strong>tools</strong> to stay updated with the latest industry trends.
+          Beyond academics, I actively engage in <strong>projects</strong>  to gain practical experience. I explore various <strong>programming languages</strong>, <strong>frameworks</strong>, and <strong>tools</strong> to stay updated with the latest industry trends.
           <br /><br />
           I am a <strong>curious learner</strong> who thrives in collaborative environments. My goal is to <strong>contribute to innovative projects</strong> and make a positive impact in the field of technology.
         </p>

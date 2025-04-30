@@ -15,6 +15,9 @@ const Projects = () => {
           <p>
             Implemented a To-Do List web application with full CRUD operations using <strong>React.js</strong>.  
           </p>
+          <a href="https://taskmanager-gamma-livid.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <button className="view-btn">View</button>
+          </a>
          
         </div>
 
@@ -23,8 +26,11 @@ const Projects = () => {
           <h3>Music Player</h3>
           <p>
             Built a simple <strong>music player</strong> interface using React.js. <br />
-            (Working to upgrade it with dynamic song fetching soon!)
+            allows user to play songs from different albums,can pause the song and also seek the song to any part of the song
           </p>
+          <a href="https://isaiwreathe.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <button className="view-btn">View</button>
+          </a>
         </div>
 
         {/* <div className="project-card">

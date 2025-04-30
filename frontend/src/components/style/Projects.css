@@ -55,6 +55,21 @@
     text-align: center;
     line-height: 1.6;
 }
+.view-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: coral;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .view-btn:hover {
+    background-color: darkorange;
+  }
+  
 
 @media (max-width: 768px) {
     #projects h1 {

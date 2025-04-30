@@ -28,6 +28,20 @@
     height: auto;
     animation: float 4s ease-in-out infinite;
 }
+.social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: teal;
+  }
 
 /* Floating animation for GIF */
 @keyframes float {

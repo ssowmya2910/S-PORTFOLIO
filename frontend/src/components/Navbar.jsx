@@ -11,6 +11,7 @@ const Navbar = () => {
           <li><Link to="about" smooth={true} duration={500} className="top">About</Link></li>
           <li><Link to="skills" smooth={true} duration={500} className="top">Skills</Link></li>
           <li><Link to="projects" smooth={true} duration={500} className="top">Projects</Link></li>
+          <li><Link to="profiles" smooth={true} duration={500} className="top">Profiles</Link></li>
           <li><Link to="contact" smooth={true} duration={500} className="top">Contact</Link></li>
         </ul>
       </div>

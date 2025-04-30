@@ -2,7 +2,6 @@ import React from 'react';
 import './style/Projects.css';
 import musicapp from '../assets/isaiwreathe.png'
 import todo from '../assets/todo.png'
-import tictactoe from '../assets/tictactoe.png'
 const Projects = () => {
   return (
     <section id="projects">

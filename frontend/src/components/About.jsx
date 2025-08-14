@@ -7,7 +7,7 @@ const About = () => {
       <h1>About Me</h1>
       <div className="about-container">
         <p>
-          I am a third-year <strong>Electronics and Communication Engineering</strong> student with a strong passion for <strong>software development</strong> and <strong>web development</strong>.  
+          I am a Final-year <strong>Electronics and Communication Engineering</strong> student with a strong passion for <strong>software development</strong> and <strong>web development</strong>.  
           <br /><br />
           I have a keen interest in <strong>competitive programming</strong> and problem-solving, consistently practicing on platforms like <em>LeetCode</em> and <em>GeeksforGeeks</em> to refine my coding skills.
           <br /><br />
